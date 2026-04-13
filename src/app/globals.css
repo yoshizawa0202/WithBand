@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Yu Gothic UI", "Segoe UI Variable Text", "Hiragino Sans", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: #120f1c;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(255, 107, 74, 0.3);
+  color: white;
+}
