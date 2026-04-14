@@ -24,6 +24,12 @@
 - [x] Ensure Documentation is Complete
 	README.md とこのファイルを現状に合わせて更新し、HTML コメントを除去。
 
+- [x] Record Deployment Context
+	AWS Amplify は `main` ブランチを本番デプロイ対象として利用する。
+
+- [x] Define Branch Strategy
+	継続開発は `develop` を統合ブランチとし、`feature/*` `fix/*` `hotfix/*` を用途別に運用する。
+
 - Work through each checklist item systematically.
 - Keep communication concise and focused.
 - Follow development best practices.
